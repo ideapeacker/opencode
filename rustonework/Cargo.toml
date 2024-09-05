@@ -1,0 +1,18 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "traffictunnel",
+    "qrc_helper",
+    "netlib",
+    "netlinker",
+    "remote_pty",
+    "ssh2_cli",
+    "cgi_fuzz",
+    "shadowsocks_demo",
+    "webview_demo",
+    "freecyber",
+    "concurrency_book",
+    "wrap_demo01",
+    "practical-rust-book"
+]

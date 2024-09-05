@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/cgi_fuzz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/concurrency_book" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/freecyber" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/netlib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/netlinker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/practical-rust-book" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/qrc_helper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/remote_pty" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shadowsocks_demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ssh2_cli" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/traffictunnel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webview_demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wrap_demo01" vcs="Git" />
+  </component>
+</project>
