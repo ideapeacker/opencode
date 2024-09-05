@@ -1,0 +1,38 @@
+[package]
+edition = "2021"
+name = "wrap_demo01"
+version = "0.1.0"
+
+[[bin]]
+name = "main1"
+path = "bin/main1.rs"
+
+[[bin]]
+name = "get_query_args"
+path = "bin/get_query_args.rs"
+
+[[bin]]
+name = "get_args"
+path = "bin/get_args.rs"
+
+[dependencies]
+serde = {version = "1.0.208", features = ["derive"]}
+serde_json = "1.0.125"
+tokio = {version = "1.39.3", features = ["full"]}
+warp = "0.3.7"
+#log = "0.4"
+#env_logger = "0.11"
+#log4rs = "1.3.0"
+chrono = "0.4.38"
+failure = "0.1.8"
+log = "0.4.21"
+paseto = "2.0.2"
+rand = "0.8.5"
+reqwest = {version = "0.12.7", features = ["json"]}
+reqwest-middleware = "0.3.3"
+reqwest-retry = "0.6.1"
+rust-argon2 = "2.1.0"
+sqlx = {version = "0.8.0", features = ["runtime-tokio-rustls", "migrate", "postgres"]}
+tracing = {version = "0.1.40", features = ["log"]}
+tracing-subscriber = {version = "0.3.18", features = ["env-filter"]}
+uuid = {version = "0.8", features = ["v4"]}

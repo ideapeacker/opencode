@@ -1,0 +1,79 @@
+2024-08-22T10:11:16.787940129-04:00 - This is info!
+2024-08-22T10:11:16.787993929-04:00 - This is warning!
+2024-08-22T10:11:16.788035617-04:00 - This is err!
+2024-08-22T10:11:16.788330582-04:00 - Server::run; addr=127.0.0.1:3030
+2024-08-22T10:11:16.788367772-04:00 - listening on http://127.0.0.1:3030
+2024-08-22T10:13:44.628545114-04:00 - parsed 3 headers
+2024-08-22T10:13:44.628709745-04:00 - incoming body is empty
+2024-08-22T10:13:44.628919928-04:00 - route was called without a query string, defaulting to empty
+2024-08-22T10:13:44.629473334-04:00 - flushed 154 bytes
+2024-08-22T10:13:44.630156014-04:00 - read eof
+2024-08-22T10:13:48.150943171-04:00 - parsed 3 headers
+2024-08-22T10:13:48.151138152-04:00 - incoming body is empty
+2024-08-22T10:13:48.151353573-04:00 - route was called without a query string, defaulting to empty
+2024-08-22T10:13:48.151679823-04:00 - flushed 154 bytes
+2024-08-22T10:13:48.152187752-04:00 - read eof
+2024-08-22T10:17:39.841785337-04:00 - This is info!
+2024-08-22T10:17:39.841866882-04:00 - This is warning!
+2024-08-22T10:17:39.841902139-04:00 - This is err!
+2024-08-22T10:17:39.842175119-04:00 - Server::run; addr=127.0.0.1:3030
+2024-08-22T10:17:39.842207532-04:00 - listening on http://127.0.0.1:3030
+2024-08-22T10:20:23.796583980-04:00 - This is info!
+2024-08-22T10:20:23.796753390-04:00 - This is warning!
+2024-08-22T10:20:23.796780333-04:00 - This is err!
+2024-08-22T10:20:23.797016870-04:00 - Server::run; addr=127.0.0.1:3030
+2024-08-22T10:20:23.797047806-04:00 - listening on http://127.0.0.1:3030
+2024-08-23T08:08:02.925548548-04:00 - This is info!
+2024-08-23T08:08:02.925698430-04:00 - This is warning!
+2024-08-23T08:08:02.925760643-04:00 - This is err!
+2024-08-23T08:08:02.926121433-04:00 - Server::run; addr=127.0.0.1:3030
+2024-08-23T08:08:02.926152514-04:00 - listening on http://127.0.0.1:3030
+2024-08-23T08:09:17.996150889-04:00 - This is info!
+2024-08-23T08:09:17.996263417-04:00 - This is warning!
+2024-08-23T08:09:17.996304021-04:00 - This is err!
+2024-08-23T08:09:17.996556012-04:00 - Server::run; addr=127.0.0.1:3030
+2024-08-23T08:09:17.996608989-04:00 - listening on http://127.0.0.1:3030
+2024-08-23T08:11:33.715787063-04:00 - This is info!
+2024-08-23T08:11:33.715830672-04:00 - This is warning!
+2024-08-23T08:11:33.715905934-04:00 - This is err!
+2024-08-23T08:11:33.716257374-04:00 - Server::run; addr=127.0.0.1:3030
+2024-08-23T08:11:33.716288828-04:00 - listening on http://127.0.0.1:3030
+2024-08-23T08:19:01.662131171-04:00 - This is info!
+2024-08-23T08:19:01.662225842-04:00 - This is warning!
+2024-08-23T08:19:01.662265066-04:00 - This is err!
+2024-08-23T08:19:01.662535401-04:00 - Server::run; addr=127.0.0.1:3030
+2024-08-23T08:19:01.662566734-04:00 - listening on http://127.0.0.1:3030
+2024-08-23T08:19:03.973417379-04:00 - GET /questions 200 OK 114.147µs from 127.0.0.1:34732 with {"host": "localhost:3030", "user-agent": "curl/8.8.0", "accept": "*/*"}
+{"time":"2024-08-23T08:26:53.801428958-04:00","level":"INFO","message":"This is info!","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":18,"target":"wrap_demo01","thread":"main","thread_id":139643262829312,"mdc":{}}
+{"time":"2024-08-23T08:26:53.801602910-04:00","level":"WARN","message":"This is warning!","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":19,"target":"wrap_demo01","thread":"main","thread_id":139643262829312,"mdc":{}}
+{"time":"2024-08-23T08:26:53.801680205-04:00","level":"ERROR","message":"This is err!","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":20,"target":"wrap_demo01","thread":"main","thread_id":139643262829312,"mdc":{}}
+{"time":"2024-08-23T08:26:53.801991378-04:00","level":"INFO","message":"Server::run; addr=127.0.0.1:3030","module_path":"warp::server","file":"/home/kali/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/warp-0.3.7/src/server.rs","line":137,"target":"warp::server","thread":"main","thread_id":139643262829312,"mdc":{}}
+{"time":"2024-08-23T08:26:53.802088232-04:00","level":"INFO","message":"listening on http://127.0.0.1:3030","module_path":"warp::server","file":"/home/kali/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/warp-0.3.7/src/server.rs","line":138,"target":"warp::server","thread":"main","thread_id":139643262829312,"mdc":{}}
+{"time":"2024-08-23T08:46:55.034373504-04:00","level":"INFO","message":"This is info!","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":19,"target":"wrap_demo01","thread":"main","thread_id":139710863233792,"mdc":{}}
+{"time":"2024-08-23T08:46:55.034491404-04:00","level":"WARN","message":"This is warning!","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":20,"target":"wrap_demo01","thread":"main","thread_id":139710863233792,"mdc":{}}
+{"time":"2024-08-23T08:46:55.034568262-04:00","level":"ERROR","message":"This is err!","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":21,"target":"wrap_demo01","thread":"main","thread_id":139710863233792,"mdc":{}}
+{"time":"2024-08-23T08:46:55.034905660-04:00","level":"INFO","message":"Server::run; addr=127.0.0.1:3030","module_path":"warp::server","file":"/home/kali/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/warp-0.3.7/src/server.rs","line":137,"target":"warp::server","thread":"main","thread_id":139710863233792,"mdc":{}}
+{"time":"2024-08-23T08:46:55.034993264-04:00","level":"INFO","message":"listening on http://127.0.0.1:3030","module_path":"warp::server","file":"/home/kali/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/warp-0.3.7/src/server.rs","line":138,"target":"warp::server","thread":"main","thread_id":139710863233792,"mdc":{}}
+{"time":"2024-08-23T08:47:10.226491756-04:00","level":"INFO","message":"GET /questions 200 OK 120.712µs from 127.0.0.1:45298 with {\"host\": \"localhost:3030\", \"user-agent\": \"curl/8.8.0\", \"accept\": \"*/*\"}","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":24,"target":"wrap_demo01","thread":"tokio-runtime-worker","thread_id":139710861149888,"mdc":{}}
+{"time":"2024-08-23T09:01:10.135737924-04:00","level":"INFO","message":"Server::run; addr=127.0.0.1:3030","module_path":"warp::server","file":"/home/kali/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/warp-0.3.7/src/server.rs","line":137,"target":"warp::server","thread":"main","thread_id":139729901998848,"mdc":{}}
+{"time":"2024-08-23T09:01:10.135843311-04:00","level":"INFO","message":"listening on http://127.0.0.1:3030","module_path":"warp::server","file":"/home/kali/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/warp-0.3.7/src/server.rs","line":138,"target":"warp::server","thread":"main","thread_id":139729901998848,"mdc":{}}
+{"time":"2024-08-23T09:01:44.594416475-04:00","level":"INFO","message":"87506d65-1533-4595-96eb-591527c0c87e Start querying questions","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":16,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":139729888609984,"mdc":{}}
+{"time":"2024-08-23T09:01:44.594576503-04:00","level":"INFO","message":"87506d65-1533-4595-96eb-591527c0c87e Pagination set Pagination { start: 1, end: 4 }","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":20,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":139729888609984,"mdc":{}}
+{"time":"2024-08-23T09:01:44.594772435-04:00","level":"INFO","message":"GET /questions 200 OK 639.399µs from 127.0.0.1:53164 with {\"host\": \"localhost:3030\", \"user-agent\": \"curl/8.8.0\", \"accept\": \"*/*\"}","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":19,"target":"wrap_demo01","thread":"tokio-runtime-worker","thread_id":139729888609984,"mdc":{}}
+{"time":"2024-08-23T09:03:16.319704374-04:00","level":"INFO","message":"ef4f9e24-2646-4525-a0e1-4cef14b62b66 Start querying questions","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":16,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":139729901192896,"mdc":{}}
+{"time":"2024-08-23T09:03:16.319894025-04:00","level":"INFO","message":"ef4f9e24-2646-4525-a0e1-4cef14b62b66 Pagination set Pagination { start: 1, end: 4 }","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":20,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":139729901192896,"mdc":{}}
+{"time":"2024-08-23T09:03:16.320255698-04:00","level":"INFO","message":"GET /questions 200 OK 682.728µs from 127.0.0.1:60502 with {\"host\": \"localhost:3030\", \"user-agent\": \"curl/8.8.0\", \"accept\": \"*/*\"}","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":19,"target":"wrap_demo01","thread":"tokio-runtime-worker","thread_id":139729901192896,"mdc":{}}
+{"time":"2024-08-23T09:04:57.470531205-04:00","level":"INFO","message":"2b82708b-ca0e-4b00-b909-ba8a8b16ae58 Start querying questions","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":16,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":139729892804288,"mdc":{}}
+{"time":"2024-08-23T09:04:57.470748208-04:00","level":"INFO","message":"2b82708b-ca0e-4b00-b909-ba8a8b16ae58 No pagination used","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":25,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":139729892804288,"mdc":{}}
+{"time":"2024-08-23T09:04:57.471316724-04:00","level":"INFO","message":"GET /questions 200 OK 980.738µs from 127.0.0.1:54606 with {\"host\": \"localhost:3030\", \"user-agent\": \"curl/8.8.0\", \"accept\": \"*/*\"}","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":19,"target":"wrap_demo01","thread":"tokio-runtime-worker","thread_id":139729892804288,"mdc":{}}
+{"time":"2024-08-23T09:06:54.353553532-04:00","level":"INFO","message":"0ee88689-1d10-49e9-aead-c6d5d2d052c6 Start querying questions","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":16,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":139729901192896,"mdc":{}}
+{"time":"2024-08-23T09:06:54.353713615-04:00","level":"INFO","message":"0ee88689-1d10-49e9-aead-c6d5d2d052c6 No pagination used","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":25,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":139729901192896,"mdc":{}}
+{"time":"2024-08-23T09:06:54.353859516-04:00","level":"INFO","message":"GET /questions 200 OK 450.217µs from 127.0.0.1:43430 with {\"host\": \"localhost:3030\", \"user-agent\": \"curl/8.8.0\", \"accept\": \"*/*\"}","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":19,"target":"wrap_demo01","thread":"tokio-runtime-worker","thread_id":139729901192896,"mdc":{}}
+{"time":"2024-08-23T09:11:36.400250133-04:00","level":"INFO","message":"Server::run; addr=127.0.0.1:3030","module_path":"warp::server","file":"/home/kali/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/warp-0.3.7/src/server.rs","line":137,"target":"warp::server","thread":"main","thread_id":140450955059968,"mdc":{}}
+{"time":"2024-08-23T09:11:36.400449994-04:00","level":"INFO","message":"listening on http://127.0.0.1:3030","module_path":"warp::server","file":"/home/kali/.cargo/registry/src/rsproxy.cn-8f6827c7555bfaf8/warp-0.3.7/src/server.rs","line":138,"target":"warp::server","thread":"main","thread_id":140450955059968,"mdc":{}}
+{"time":"2024-08-23T09:11:42.415546002-04:00","level":"INFO","message":"6be0a9e4-ab00-4b4a-9d0d-d81ee68040fb Start querying questions","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":16,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":140450941896384,"mdc":{}}
+{"time":"2024-08-23T09:11:42.415735930-04:00","level":"INFO","message":"6be0a9e4-ab00-4b4a-9d0d-d81ee68040fb No pagination used","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":25,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":140450941896384,"mdc":{}}
+{"time":"2024-08-23T09:11:42.415967715-04:00","level":"INFO","message":"GET /questions 200 OK 618.034µs from 127.0.0.1:58538 with {\"host\": \"localhost:3030\", \"user-agent\": \"curl/8.8.0\", \"accept\": \"*/*\"}","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":19,"target":"wrap_demo01","thread":"tokio-runtime-worker","thread_id":140450941896384,"mdc":{}}
+{"time":"2024-08-23T09:11:46.841389197-04:00","level":"INFO","message":"983139d0-6416-4df4-8560-05c954b8f021 Start querying questions","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":16,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":140450954479296,"mdc":{}}
+{"time":"2024-08-23T09:11:46.842302123-04:00","level":"INFO","message":"983139d0-6416-4df4-8560-05c954b8f021 No pagination used","module_path":"wrap_demo01::routes::question","file":"wrap_demo01/src/routes/question.rs","line":25,"target":"wrap_demo01::routes::question","thread":"tokio-runtime-worker","thread_id":140450954479296,"mdc":{}}
+{"time":"2024-08-23T09:11:46.842470606-04:00","level":"INFO","message":"GET /questions 200 OK 1.471721ms from 127.0.0.1:58540 with {\"host\": \"localhost:3030\", \"user-agent\": \"curl/8.8.0\", \"accept\": \"*/*\"}","module_path":"wrap_demo01","file":"wrap_demo01/src/main.rs","line":19,"target":"wrap_demo01","thread":"tokio-runtime-worker","thread_id":140450954479296,"mdc":{}}

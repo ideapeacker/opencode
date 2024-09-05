@@ -1,0 +1,13 @@
+┌──(kali㉿kali)-[~/workspace/rustonework/wrap_demo01]
+└─$ curl --location --request POST 'localhost:3030/answer' \
+--header 'Content-Type:application/x-www-form-urlencoded' \
+--data-urlencode 'id=1' \
+--data-urlencode 'questionId=1' \
+--data-urlencode 'content=This is the question I had.'
+Answer added
+
+┌──(kali㉿kali)-[~/workspace/rustonework/wrap_demo01]
+└─$ curl --location --request DELETE 'localhost:3030/question/1' \
+--header 'Content-Type:application/json' \
+--data-raw '{"id":"1","title":"New question", "content":"How does this work again?"}'
+Question deleted

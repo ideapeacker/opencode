@@ -1,0 +1,77 @@
+[package]
+edition = "2021"
+name = "remote_pty"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "basic_interactive_shell"
+path = "bin/basic_interactive_shell.rs"
+
+[[bin]]
+name = "file_interactive_shell"
+path = "bin/file_interactive_shell.rs"
+
+[[bin]]
+name = "pipe_interactive_shell"
+path = "bin/pipe_interactive_shell.rs"
+
+[[bin]]
+name = "tcp_interactive_shell"
+path = "bin/tcp_interactive_shell.rs"
+
+[[bin]]
+name = "tcp_interactive_shell_srv"
+path = "bin/tcp_interactive_shell_srv.rs"
+
+[[bin]]
+name = "udp_interactive_shell"
+path = "bin/udp_interactive_shell.rs"
+
+[[bin]]
+name = "tokio_shell"
+path = "bin/tokio_shell.rs"
+
+[[bin]]
+name = "pty_server"
+path = "bin/pty_server.rs"
+
+[[bin]]
+name = "pty_connect"
+path = "bin/pty_connect.rs"
+
+[[bin]]
+name = "ws_cli"
+path = "bin/ws_cli.rs"
+
+[[bin]]
+name = "ws_srv"
+path = "bin/ws_srv.rs"
+
+[[bin]]
+name = "ws_srv_echo"
+path = "bin/ws_srv_echo.rs"
+
+[[bin]]
+name = "wss_cli"
+path = "bin/wss_cli.rs"
+
+[[bin]]
+name = "wss_srv"
+path = "bin/wss_srv.rs"
+
+[dependencies]
+chrono = "0.4.37"
+clap = {version = "4", features = ["derive"]}
+libc = "0.2"
+tokio = {version = "1.36.0", features = ["net","macros","io-std","rt-multi-thread"]}
+tokio-tungstenite = { version = "0.21.0", features = ["rustls-tls-webpki-roots", "tokio-rustls"] }
+#rustls = { version = "^0.22"}
+tokio-rustls = { version = "^0.25.0"}
+futures-util = "0.3.30"
+url = "2.5.0"
+futures-channel = "0.3.30"
+webpki = "0.22.4"
+rcgen = { version = "0.13.1"}
+

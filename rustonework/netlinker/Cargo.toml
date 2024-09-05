@@ -1,0 +1,69 @@
+[package]
+name = "netlinker"
+version = "0.1.0"
+edition = "2021"
+
+
+[features]
+local-tunnel = []
+local-http = []
+server = []
+local = []
+utility = []
+manager = []
+service = []
+winservice = []
+local-dns = []
+
+[[bin]]
+name = "freenode"
+path = "bin/free_net_node.rs"
+
+[[bin]]
+name = "sslocal"
+path = "bin/sslocal.rs"
+required-features = ["local"]
+
+[[bin]]
+name = "ssserver"
+path = "bin/ssserver.rs"
+required-features = ["server"]
+
+[[bin]]
+name = "ssurl"
+path = "bin/ssurl.rs"
+required-features = ["utility"]
+
+[[bin]]
+name = "ssmanager"
+path = "bin/ssmanager.rs"
+required-features = ["manager"]
+
+[[bin]]
+name = "ssservice"
+path = "bin/ssservice.rs"
+required-features = ["service"]
+
+[[bin]]
+name = "sswinservice"
+path = "bin/sswinservice.rs"
+required-features = ["winservice"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+netlib = { path = "../netlib" }
+tokio = { version = "1.36.0", features = ["full"] }
+windows-service = "0.6.0"
+byte_string = "1.0.0"
+byteorder = "1.5.0"
+log = "0.4.21"
+env_logger = "0.11.3"
+clap = { version = "~4.4", features = ["wrap_help", "suggestions", "derive"] }
+shadowsocks-rust = { version = "1.18.2", features = [
+    "default",
+    "local-tunnel",
+    "server",
+    "windows-service",
+] }
+shadowsocks-service = { version = "1.18.2", features = ["full"] }
